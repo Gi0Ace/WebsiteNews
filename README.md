@@ -43,7 +43,7 @@
 Скачиваем проект, переходим в директорию проекта и устанавливаем зависимости
 
 ```bash
-$ cd hacker-news && npm install
+$ cd WebsiteNews-main && npm install
 ```
 
 После чего запускаем проект

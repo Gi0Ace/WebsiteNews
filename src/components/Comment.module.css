@@ -1,0 +1,31 @@
+.details {
+    color: #000000;
+    font-size: 9.5pt;
+}
+
+.text {
+    overflow-wrap: break-word;
+}
+
+.noComment {
+    color: #000000;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.8;
+    transition: 0.2s, ease-in-out, linear;
+    cursor: pointer;
+}
+
+.subCommentsVisible {
+    display: flex;
+    padding-left: 25px;
+}
+
+.subCommentsHidden {
+    display: none;
+}

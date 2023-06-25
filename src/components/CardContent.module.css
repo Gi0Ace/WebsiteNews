@@ -1,0 +1,14 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    color: #000000;
+    font-size: 9.5pt;
+}
+
+@media screen and (max-width: 390px) {
+    .column {
+        flex-direction: column;
+    }
+}

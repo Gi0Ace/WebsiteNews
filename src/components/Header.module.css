@@ -1,0 +1,8 @@
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    padding: 50px 250px;
+}

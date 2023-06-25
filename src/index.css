@@ -1,0 +1,125 @@
+@import url(./normal.css);
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    height: 100%;
+    color: #000;
+    background: #fff;
+    font-family: "Inter", Helvetica, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45em;
+    min-width: 320px;
+}
+
+#root {
+    width: 655px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 765px) {
+    #root {
+        width: auto;
+        margin: 0 20px;
+    }
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+blockquote,
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+a:visited {
+    color: #7f788e;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: 0.3s, ease-in-out, linear;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    padding: 0;
+    display: block;
+    cursor: inherit;
+    touch-action: manipulation;
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+    background-color: #ccc;
+    color: #292929;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+figure {
+    margin: 0;
+}
+
+input,
+textarea {
+    display: block;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+article h1,
+article h2 {
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+article a {
+    text-decoration-line: underline;
+}
+
+a:visited {
+    color: #7f788e;
+}
+
+p {
+    margin: 0.5rem 0;
+}

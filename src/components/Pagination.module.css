@@ -1,0 +1,51 @@
+.nav {
+    width: inherit;
+}
+
+.list {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 20px 0;
+}
+
+.listItems {
+    align-self: center;
+}
+
+.button {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.nextArrow {
+    width: inherit;
+    height: inherit;
+    transform: rotate(180deg);
+}
+
+.backArrow {
+    width: inherit;
+    height: inherit;
+}
+
+@media screen and (max-width: 390px) {
+    .list {
+        justify-content: space-between;
+    }
+}
